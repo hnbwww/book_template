@@ -137,13 +137,14 @@ markdown
 ## 3. 配置 publicPath（可选）​
 如果项目部署在子路径（如 /docs/），需在 vuepress/config.js 中设置 publicPath：
 
+```
 javascript
 // .vuepress/config.js
 module.exports = {
   publicPath: '/', // 默认值，无需修改
-  // publicPath: '/docs/' // 如果部署在子路径则设置为 '/子路径/'
+  // publicPath: '/docs/' // 如果public 部署在子路径则设置为 '/子路径/'
 }
-
+```
 
 
 vuepress更多请查看：
