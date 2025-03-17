@@ -1,4 +1,4 @@
-# book_template_VuePress
+# Book_template_VuePress
 
 这是VuePress生成书籍的模板
 
@@ -102,6 +102,34 @@ VuePress 会在 http://localhost:8080 (opens new window)启动一个热重载的
 ``` js
 yarn docs:build # npm run docs:build
 ```
+
+
+
+在 VuePress 中正确显示静态文件（如图片）需遵循以下步骤，确保开发预览时路径正确：
+
+## ​1. 放置静态文件
+将图片等静态资源存放在项目根目录下的 public 文件夹内（VuePress 默认识别该目录）：
+
+```
+your-project/
+├── docs/
+│   ├── .vuepress/
+│   │   └── config.js
+│   └── index.md
+└── public/
+    └── images/
+        └── example.png  # 图片路径：/images/example.png
+```
+ 
+## ​2. 在 Markdown 或 Vue 组件中引用
+​Markdown 文件​（如 docs/index.md）：
+
+```
+markdown
+![示例图片](/images/example.png)  <!-- 直接引用 public/images 下的文件 -->
+```
+
+​路径规则：假设图片在 public/images/，则引用路径为 /images/文件名。
 
 
 
