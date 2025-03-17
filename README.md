@@ -118,7 +118,7 @@ your-project/
 │   │   └── config.js
 │   │   └── public/
 │   │     └── images/
-          └── example.png  # 图片路径：/images/example.png
+            └── example.png  # 图片路径：/images/example.png
 │   └── index.md
 │   └── test.md
 
