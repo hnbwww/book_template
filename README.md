@@ -1,13 +1,13 @@
-# book_template
+# book_template_VuePress
 
-这是生成书籍的模板
+这是VuePress生成书籍的模板
 
 
 
 ---
 home: true
 title: Hello XXX VuePress
-description: 这是书籍生成模板
+description: 这是VuePress书籍生成模板
 heroImage: https://vuejs.press/images/hero.png
 heroText: Hero 标题
 tagline: Hero 副标题
