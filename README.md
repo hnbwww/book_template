@@ -181,6 +181,13 @@ vuepress更多请查看：
 <https://v1.vuepress.vuejs.org/zh/guide/getting-started.html>
 
 
+VuePress 手摸手教你搭建 以及 发布到github上   <https://segmentfault.com/a/1190000016333850>
+
+Vuepress官方文档 <https://v1.vuepress.vuejs.org/zh/guide/getting-started.html>
+
+
+
+
 
 
 
@@ -203,7 +210,7 @@ vuepress更多请查看：
 
 配置文件 config.js 放置于 docs/.vuepress 文件夹下 
 
-```
+```js
 
 const path = require('path')
 
