@@ -94,7 +94,7 @@ mkdir docs && echo '# Hello VuePress' > docs/README.md
 yarn docs:dev # npm run docs:dev
 ```
 
-VuePress 会在 http://localhost:8080 (opens new window)启动一个热重载的开发服务器。
+VuePress 会在 <http://localhost:8080> (opens new window)启动一个热重载的开发服务器。
 
 
 ## 生成静态文件
@@ -178,7 +178,7 @@ module.exports = {
 
 vuepress更多请查看：
 
-https://v1.vuepress.vuejs.org/zh/guide/getting-started.html
+<https://v1.vuepress.vuejs.org/zh/guide/getting-started.html>
 
 
 
