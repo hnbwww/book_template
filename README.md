@@ -30,89 +30,6 @@ footer: MIT Licensed | Copyright © 2025 一亿拼图
 ---
 
 
-# GitHub 风格的表格
-
-
-输入 
-
-
-``` js
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-```
-
-输出
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-
-
-# Emoji 表情
-
-
-``` js
-:tada: :100:
-```
-
-
-:tada: :100:
-
-
-
-
-
-# 徽标 Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
-
-
-
-``` js
-export default {
-  name: 'MyComponent',
-  // ...
-}
-```
-
-
-
-
-``` html
-<ul>
-  <li
-    v-for="todo in todos"
-    :key="todo.id"
-  >
-    {{ todo.text }}
-  </li>
-</ul>
-```
-
-
-# 提示区块 警告
-
-
-::: tip
-这是一个提示
-配置  .vuepress 文件夹下的 config.js文件。 设置了代码 可以自动读取文件夹  以及 子文件夹的文件 作为侧边栏。
-:::
-
-::: warning
-这是一个警告
-:::
-
-::: danger
-这是一个危险警告
-:::
-
-::: details
-这是一个详情块，在 IE / Edge 中不生效
-:::
 
 
 # 安装vuepress
@@ -377,6 +294,95 @@ Markdown语法大全(超级版) <https://www.jianshu.com/p/ebe52d2d468f>
 1. 有序列表项 一
 2. 有序列表项 二
 3. 有序列表项 三
+
+
+
+
+# GitHub 风格的表格
+
+
+输入 
+
+
+``` js
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+```
+
+输出
+
+| Tables        | Are           | Cool  |
+| ------------- |:-------------:| -----:|
+| col 3 is      | right-aligned | $1600 |
+| col 2 is      | centered      |   $12 |
+| zebra stripes | are neat      |    $1 |
+
+
+
+# Emoji 表情
+
+
+``` js
+:tada: :100:
+```
+
+
+:tada: :100:
+
+
+
+
+
+# 徽标 Badge <Badge text="beta" type="warning"/> <Badge text="默认主题"/>
+
+
+
+``` js
+export default {
+  name: 'MyComponent',
+  // ...
+}
+```
+
+
+
+
+``` html
+<ul>
+  <li
+    v-for="todo in todos"
+    :key="todo.id"
+  >
+    {{ todo.text }}
+  </li>
+</ul>
+```
+
+
+# 提示区块 警告
+
+
+::: tip
+这是一个提示
+配置  .vuepress 文件夹下的 config.js文件。 设置了代码 可以自动读取文件夹  以及 子文件夹的文件 作为侧边栏。
+:::
+
+::: warning
+这是一个警告
+:::
+
+::: danger
+这是一个危险警告
+:::
+
+::: details
+这是一个详情块，在 IE / Edge 中不生效
+:::
+
+
 
 
 
