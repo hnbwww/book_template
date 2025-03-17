@@ -112,6 +112,7 @@ yarn docs:build # npm run docs:build
 也就是和config一个目录。
 
 ```
+
 your-project/
 ├── docs/
 │   ├── .vuepress/
@@ -121,6 +122,30 @@ your-project/
             └── example.png  # 图片路径：/images/example.png
 │   └── index.md
 │   └── test.md
+
+
+
+例如
+|-blog
+  |-.gitignore
+  |-docs
+  |  |-.vuepress
+  |  |  |-config.js
+  |  |  |-public
+  |  |  |  |-favicon.ico
+  |  |  |  |-favorite.png
+  |  |-README.md
+  |-package.json
+  
+
+
+module.exports = {
+	title:"前端蜗牛",
+	description:"个人博客",
+	head:[
+		['link',{rel:'icon',href:'/favicon.ico'}]
+	]
+}
 
 
 ```
