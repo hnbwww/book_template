@@ -119,6 +119,7 @@ https://v1.vuepress.vuejs.org/zh/guide/getting-started.html
 
 自动获取侧边栏插件已经写入 config.js
 
+功能是 自动获取文件夹下 所有文件夹 以及子文件夹下的文件， 显示在侧边栏 就像书籍的目录一样
 
 
 后面的侧边栏插件 无需安装
