@@ -108,17 +108,21 @@ yarn docs:build # npm run docs:build
 在 VuePress 中正确显示静态文件（如图片）需遵循以下步骤，确保开发预览时路径正确：
 
 ## ​1. 放置静态文件
-将图片等静态资源存放在项目根目录下的 public 文件夹内（VuePress 默认识别该目录）：
+将图片等静态资源存放在`.vuepress/public` 文件夹内（VuePress 默认识别该目录）：
+也就是和config一个目录。
 
 ```
 your-project/
 ├── docs/
 │   ├── .vuepress/
 │   │   └── config.js
+│   │   └── public/
+│   │     └── images/
+          └── example.png  # 图片路径：/images/example.png
 │   └── index.md
-└── public/
-    └── images/
-        └── example.png  # 图片路径：/images/example.png
+│   └── test.md
+
+
 ```
  
 ## ​2. 在 Markdown 或 Vue 组件中引用
