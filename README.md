@@ -131,6 +131,7 @@ markdown
 
 ​路径规则：假设图片在 public/images/，则引用路径为 /images/文件名。
 
+![示例图片](/images/example.png)  <!-- 直接引用 public/images 下的文件 -->
 
 
 vuepress更多请查看：
