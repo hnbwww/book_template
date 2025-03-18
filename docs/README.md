@@ -1,6 +1,6 @@
 ---
 home: true
-title: Hello XXX VuePress
+title: Hello VuePress
 description: Just playing around
 heroImage: https://vuejs.press/images/hero.png
 heroText: Hero 标题
@@ -32,7 +32,7 @@ footer: MIT Licensed | Copyright © 2025 一亿拼图
 
 ---
 home: true
-title: Hello XXX VuePress
+title: Hello VuePress
 description: 这是VuePress书籍生成模板
 heroImage: https://vuejs.press/images/hero.png
 heroText: Hero 标题
@@ -179,6 +179,8 @@ module.exports = {
 ## ​2. 在 Markdown 或 Vue 组件中引用
 ​Markdown 文件​（如 docs/index.md）：
 
+图片演示
+
 ```
 markdown
 ![示例图片](/images/example.png)  <!-- 直接引用 public/images 下的文件 -->
@@ -187,6 +189,29 @@ markdown
 ​路径规则：假设图片在 public/images/，则引用路径为 /images/文件名。
 
 ![示例图片](/images/example.png)  <!-- 直接引用 public/images 下的文件 -->
+
+
+
+视频演示
+
+```html
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+  <source id="mp4" src="/video/video.mp4" type="video/mp4">
+</video>
+```
+
+
+视频演示
+
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+  <source id="mp4" src="/video/video.mp4" type="video/mp4">
+</video>
+
+  
+</video/video.mp4>
+
+
+
 
 
 ## 3. 配置 publicPath（可选）​
@@ -473,14 +498,35 @@ Markdown语法大全(超级版) <https://www.jianshu.com/p/ebe52d2d468f>
 ```
 
 
-![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif "图片Title")
+![GitHub set up](/images/logo.png "图片Title")
 
 格式: ![图片Alt](图片地址 "图片Title")
 
 ```
 
 
-![GitHub set up](http://zh.mweb.im/asset/img/set-up-git.gif "图片Title")
+![GitHub set up](/images/logo.png "图片Title")
+
+
+
+视频演示
+
+```html
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+  <source id="mp4" src="/video/video.mp4" type="video/mp4">
+</video>
+```
+
+
+视频演示
+
+<video id="video" controls="" preload="none" poster="http://media.w3.org/2010/05/sintel/poster.png">
+  <source id="mp4" src="/video/video.mp4" type="video/mp4">
+</video>
+
+  
+</video/video.mp4>
+
 
 
 
